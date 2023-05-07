@@ -8,6 +8,8 @@ import {
   html,
   css,
   reactjs,
+  nextjs,
+  graphql,
   redux,
   tailwind,
   nodejs,
@@ -81,12 +83,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "GraphQL",
+    icon: graphql,
   },
   {
     name: "Node JS",
@@ -97,20 +99,12 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
