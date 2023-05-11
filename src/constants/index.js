@@ -167,7 +167,7 @@ const projects = [
   {
     name: "Rick and Morty Wiki",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, about rick and morty Tv Show characters.",
     tags: [
       {
         name: "Next JS",
@@ -188,7 +188,7 @@ const projects = [
   {
     name: "MovieLand",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for Movies basic information like release date...",
     tags: [
       {
         name: "react",
@@ -209,7 +209,7 @@ const projects = [
   {
     name: "Weathery",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A weather web app that provide the user with the weather state for every city/country with a background image related to that location.",
     tags: [
       {
         name: "React Js ",
