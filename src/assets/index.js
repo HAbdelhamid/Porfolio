@@ -23,6 +23,8 @@ import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.png";
 import graphql from "./tech/graphql.png";
 
+import yogobe from "./company/yogobe.jpg";
+import fenris from "./company/fenris.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -31,6 +33,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import rickandmorty from "./rickandmorty.png";
+import movieapp from "./movieapp.png";
+import weathery from "./weathery.png";
 
 export {
   logo,
@@ -57,9 +62,14 @@ export {
   typescript,
   threejs,
   meta,
+  fenris,
+  yogobe,
   shopify,
   starbucks,
   tesla,
+  rickandmorty,
+  movieapp,
+  weathery,
   carrent,
   jobit,
   tripguide,

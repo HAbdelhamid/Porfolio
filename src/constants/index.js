@@ -1,4 +1,6 @@
 import {
+  fenris,
+  yogobe,
   mobile,
   backend,
   creator,
@@ -8,6 +10,9 @@ import {
   html,
   css,
   reactjs,
+  rickandmorty,
+  movieapp,
+  weathery,
   nextjs,
   graphql,
   redux,
@@ -44,17 +49,10 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
+
   {
     title: "Content Creator",
     icon: creator,
@@ -82,6 +80,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
+
   {
     name: "Next JS",
     icon: nextjs,
@@ -110,11 +109,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer",
+    company_name: "Fenris Agency",
+    icon: fenris,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2022 - September 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -123,37 +122,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer",
+    company_name: "Yogobe",
+    icon: yogobe,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "December 2022 - April 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -192,28 +165,28 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Rick and Morty Wiki",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "Next JS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "GraphQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "styled-components",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: rickandmorty,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "MovieLand",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -230,28 +203,28 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: movieapp,
+    source_code_link: "https://github.com/HAbdelhamid/Weathery",
   },
   {
-    name: "Trip Guide",
+    name: "Weathery",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "React Js ",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Rest API",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "styled-components",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: weathery,
     source_code_link: "https://github.com/",
   },
 ];
